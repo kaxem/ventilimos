@@ -1,3 +1,4 @@
+
 .home{
     background-color: white;
     display: block;
@@ -6,9 +7,24 @@
         padding: 0px 40px;
         height: 88%;
         .img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
             width: 1362px; 
             height: 650px; 
             object-fit: cover;
+        }
+
+    }
+    .text{
+        padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p{
+            font-family: Roboto;
+            font-size: 30px;
+            font-weight: 500;
         }
     }
 }
