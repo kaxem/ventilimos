@@ -1,3 +1,14 @@
 .home{
-    background-color: black;
+    background-color: white;
+    display: block;
+    .imgContainer{
+        display: grid;
+        padding: 0px 40px;
+        height: 88%;
+        .img{
+            width: 1362px; 
+            height: 650px; 
+            object-fit: cover;
+        }
+    }
 }
