@@ -11,7 +11,7 @@
             align-items: center;
             justify-content: center;
             width: 1362px; 
-            height: 650px; 
+            height: 630px; 
             object-fit: cover;
         }
 
@@ -24,8 +24,9 @@
         p{
             margin: 15px 0;
             font-family: 'Roboto', sans-serif;
-            font-size: 26px;
+            font-size: 27px;
             font-weight: 500;
+            font-stretch: semi-expanded;
         }
     }
 }

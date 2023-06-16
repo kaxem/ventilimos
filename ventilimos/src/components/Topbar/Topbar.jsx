@@ -12,7 +12,7 @@ export default function Topbar() {
                 <a href="#contact" className="menu">Contact</a>
             </div>
             <div className="title">
-                <a href="/"className="logo">Ventilimos</a>
+                <a href="/"className="logo">Ventilimos Consulting</a>
             </div>
             <div className="right">
             </div>
