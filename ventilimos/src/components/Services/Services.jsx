@@ -2,7 +2,7 @@ import "./Services.scss"
 
 export default function Services() {
   return (
-    <div>
+    <div className="Services" id="services">
       
     </div>
   )
