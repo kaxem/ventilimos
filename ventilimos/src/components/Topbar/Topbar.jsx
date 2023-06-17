@@ -1,11 +1,14 @@
 import "./Topbar.scss"
 
 export default function Topbar() {
+function test(e){
+  e.target.classList.add("change");
+}
   return (
     <div className="topbar">
         <div className="wrapper">
             <div className="left">
-                <a href="#home" className="menu">Home</a>
+                <a href="#home" className="menu" onClick={test}>Home</a>
                 <a href="#about" className="menu">About</a>
                 <a href="#portfolio" className="menu">Me</a>
                 <a href="#services" className="menu">Services</a>

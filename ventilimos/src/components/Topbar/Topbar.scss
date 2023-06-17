@@ -39,7 +39,8 @@
             text-align: center;
             align-content: center;
             .logo{
-            text-decoration: none;
+                color: black;
+                text-decoration: none;
             }
             
         } 
@@ -49,5 +50,7 @@
         
     }
      
-    
+    .change{
+        color: red !important;
+    }
 }
