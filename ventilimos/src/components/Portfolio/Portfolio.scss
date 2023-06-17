@@ -1,3 +1,36 @@
-.portfolio{
-    background-color: lightcyan;
+
+
+.Portfolio{
+    background-color: white;
+    display: block;
+    // margin: 40px;
+   
+    .content{
+        h2{
+            margin: 10px 0;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        margin: 40;
+        display: flex;
+        .description{
+
+            flex:0.5;
+        }
+        .imgContainer{
+            padding-left: 40px;
+            flex: 0.4;
+            height: 80vh;
+            .img{
+                padding-right: 0 20px;
+                display: grid;
+                height: 100%;
+                width: 80%;
+                object-fit: cover;
+            }
+
+        }
+    }
 }
