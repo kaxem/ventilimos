@@ -7,9 +7,11 @@ export default function Portfolio() {
       <div className="content">
       <div className="imgContainer">
           <img className="img" src="/assests/cv2.jpg" alt=""/>
-        </div>
-        <div className="description">
+      </div>
+        <div className="text">
         <h2>About me</h2>
+        <div className="description">
+        
           <p>
             I am Christopher Lederer, a dedicated professional who turned his hobby into a
             fulfilling career. In 1986, I got my first personal computer, and by 1990, I was building
@@ -47,6 +49,7 @@ export default function Portfolio() {
             my strategies with businesses and individuals, guiding them through the complexities
             of scaling and leadership transition.
           </p>
+        </div>
         </div>
         
       </div>
