@@ -5,28 +5,40 @@
     padding: 30px 40px;
     .imgContainer{
         padding: 40px 0;
-        width: 33%;
+        width: 40%;
         height: 100%;
         
         .img{
+            padding-top: 10px;;
             display: block;
             align-items: center;
             justify-content: center;
-            height: 92%;
+            height: 94%;
             width: 100%;
             // object-fit: cover;
         }
     }
+    
     .description{
-        display: block;
-        font-family: 'Loto', sans-serif;
+        padding-top: 20vh;
+        h3{
+            padding-bottom: 10px;
+        }
+        display:block;
         margin:80px 70px;
-        // position: relative;
         width: 66%;
-        p{
+        .text{
+            display: flex;
+        .left{
+            padding-right: 20px;
+            flex: 50%;
             font-size: 20px;
         }
-        
+        .right{
+            flex: 50%;
+            font-size: 20px;
+        }
+    }
     }
     
     

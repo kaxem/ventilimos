@@ -9,21 +9,21 @@ import { useState } from "react";
 
 
 function App() {
-  const [style,setStyle]=useState(['black','gray','gray','gray','gray'])
+  const [style,setStyle]=useState(['black','lightgray','lightgray','lightgray','lightgray'])
 
   function scorllNav (event){
   console.log(event.target.scrollTop)
 
   if (event.target.scrollTop<670){
-    setStyle(['black','gray','gray','gray','gray'])
+    setStyle(['black','lightgray','lightgray','lightgray','lightgray'])
   }else if(670<=event.target.scrollTop && event.target.scrollTop<1340 ){
-    setStyle(['gray','black','gray','gray','gray'])
+    setStyle(['lightgray','black','lightgray','lightgray','lightgray'])
   }else if(1340<=event.target.scrollTop && event.target.scrollTop<2010){
-    setStyle(['gray','gray','black','gray','gray'])
+    setStyle(['lightgray','lightgray','black','lightgray','lightgray'])
   }else if(2010<=event.target.scrollTop && event.target.scrollTop<2680){
-    setStyle(['gray','gray','gray','black','gray'])
+    setStyle(['lightgray','lightgray','lightgray','black','lightgray'])
   }else if(2680<=event.target.scrollTop){
-    setStyle(['gray','gray','gray','gray','black'])
+    setStyle(['lightgray','lightgray','lightgray','lightgray','black'])
   }
 };
   return (

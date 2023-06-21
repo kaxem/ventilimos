@@ -9,15 +9,17 @@ export default function Portfolio() {
           <img className="img" src="/assests/cv2.jpg" alt=""/>
       </div>
         <div className="text">
-        <h2>About me</h2>
+        <h3>About me</h3>
+        <br/>
         <div className="description">
-        
+          
           <p>
             I am Christopher Lederer, a dedicated professional who turned his hobby into a
             fulfilling career. In 1986, I got my first personal computer, and by 1990, I was building
             my own from scrap parts. This early interest developed into a strong background in
             system administration and hardware.
           </p>
+          <br />
           <br/>
           <p>
             From 1992 to 1999, I provided telecommunications and fax solutions for various
@@ -26,6 +28,7 @@ export default function Portfolio() {
             understanding of accountability, clear communication, and expectation management,
             values that I still uphold in my professional approach.
           </p>
+          <br />
           <br/>
           <p>
             In 1999, I embarked on a career in technology management and leadership. I've held
@@ -34,6 +37,7 @@ export default function Portfolio() {
             management, and team development.
           </p>
           <br/>
+          <br />
           <p>
             Throughout my journey, I've come to understand that success in the tech industry
             goes beyond just technical knowledge. It involves clear communication, efficient
@@ -43,7 +47,7 @@ export default function Portfolio() {
             environments effectively.
           </p>
           <br/>
-
+          <br />
           <p>
             These insights and experiences led me to establish Ventilimos Consulting. Here, I share
             my strategies with businesses and individuals, guiding them through the complexities
